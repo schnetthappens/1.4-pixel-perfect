@@ -1,0 +1,91 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*GENERAL PAGE LAYOUT*/
+/*includes main structural sections on page*/
+
+.holdsHeaderImage {
+  max-width: 1300px;
+  height: 523px;
+  background-image: url(../images/beach.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover
+  margin: 0;
+}
+
+.holdsHeaderContent {
+  max-width: 996px;
+  width: 338px;
+}
+
+.viewPages {
+  max-width: 990px;
+  height: 45px;
+}
+
+/*ARTICLE and ASIDE*/
+
+.holdsContent {
+  max-width: 1300px;
+  height: 1005px;
+  background-color: green;
+}
+
+  .holdsArticle {
+    max-width: 978px;
+    height: 874px;
+    background-color: red;
+    margin-left: 164px;
+  }
+
+  .holdsArticleTitle {
+    max-width: 619px;
+    height: 165px;
+    /* margin-top: 70px; */
+    /* margin-left: 164px; */
+    background-color: blue;
+  }
+
+  .articleContent {
+    max-width: 619px;
+    height: 613px;
+    /* margin-left: 164px; */
+    display: inline-block;
+    background-color: orange;
+  }
+
+  .aboutAuthor {
+    max-width: 281px;
+    height: 613px;
+    background-color: #fff;
+    display:inline-block;
+    background-color: yellow;
+    vertical-align: top;
+  }
+
+  /*"MOST POPULAR POSTS" headline*/
+
+  .holdsPopPosts {
+    max-width: 1300px;
+    height: 147px;
+    margin: 0 auto;
+    background-color: blue;
+  }
+
+  /*POPULAR POSTS*/
+
+  .viewPopPosts {
+    max-width: 1300px;
+    height: 300px;
+  }
+
+    /*PAGE FOOTER*/
+
+  .endsPage {
+    max-width: 1300px;
+    height: 97px;
+    background-color: rgb(10, 46, 72);
+  }

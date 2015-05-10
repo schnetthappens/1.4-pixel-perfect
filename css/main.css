@@ -5,32 +5,51 @@
 }
 
 
+body {
+  margin: 0 auto:
+  max-width: 1300px;
+}
+
+
 body p {
   font-family: 'Open Sans', sans-serif;
 }
 
 
-
-/***************************************/
 /*GENERAL PAGE LAYOUT*/
-/*includes main structural elements on page*/
-/***************************************/
-
-
+/*includes main structural sections on page*/
 
 .holdsHeaderImage {
   max-width: 1300px;
   height: 523px;
   background-image: url(../images/beach.jpeg);
   background-repeat: no-repeat;
-  background-size: cover
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   margin: 0;
 }
 
+.imageOverlay {
+  width: 1300px;
+  height: 523px;
+  position: absolute;
+  background-color: #1962A4;
+  opacity: 0.8;
+  z-index: 0;
+}
+
 .holdsHeaderContent {
+<<<<<<< HEAD
   width: 996px;
   height: 338px;
   margin-left: 141px;
+  z-index: 1;
+=======
+  max-width: 996px;
+  width: 338px;
+>>>>>>> parent of f74f8e3... Styled header and article-footer
 }
 
 .viewPages {
@@ -38,37 +57,40 @@ body p {
   height: 45px;
 }
 
+<<<<<<< HEAD
 
-
+=======
+>>>>>>> parent of f74f8e3... Styled header and article-footer
 /*ARTICLE and ASIDE*/
 
 .holdsContent {
   max-width: 1300px;
   height: 1005px;
-  background-color: green;
+  /* background-color: green; */
 }
 
   .holdsArticle {
     max-width: 978px;
     height: 874px;
-    background-color: red;
+    /* background-color: red; */
     margin-left: 164px;
   }
 
   .holdsArticleTitle {
-    max-width: 619px;
+    max-width: 565px;
     height: 165px;
     /* margin-top: 70px; */
     /* margin-left: 164px; */
-    background-color: blue;
+    /* background-color: blue; */
   }
 
   .articleContent {
-    max-width: 619px;
+    max-width: 575px;
     height: 613px;
     /* margin-left: 164px; */
     display: inline-block;
-    background-color: orange;
+    margin-right: 20px;
+    /* background-color: orange; */
   }
 
   .aboutAuthor {
@@ -80,9 +102,11 @@ body p {
     vertical-align: top;
   }
 
+  /*"MOST POPULAR POSTS" headline*/
 
-
+<<<<<<< HEAD
   /*ARTICLE FOOTER*/
+
 
     /*MOST POPULAR POSTS*/
 
@@ -93,16 +117,32 @@ body p {
       /* background-color: blue; */
     }
 
+
     /*POPULAR POSTS*/
 
     .viewPopPosts {
-      max-width: 1300px;
-      height: 300px;
+      width: 1300px;
+      height: 330px;
     }
 
 
 
+=======
+  .holdsPopPosts {
+    max-width: 1300px;
+    height: 147px;
+    margin: 0 auto;
+    background-color: blue;
+  }
 
+  /*POPULAR POSTS*/
+
+  .viewPopPosts {
+    max-width: 1300px;
+    height: 300px;
+  }
+
+>>>>>>> parent of f74f8e3... Styled header and article-footer
     /*PAGE FOOTER*/
 
   .endsPage {
@@ -113,24 +153,27 @@ body p {
 
 
 
-  /***************************************/
   /*STYLINGS for main structural elements*/
+<<<<<<< HEAD
   /***************************************/
 
 
 
   /*PAGE HEADER*/
 
+
+
+
     /*nav container*/
 
     .viewPages {
-      max-width: 1020px;
+      max-width: 1300px;
       height: 50px;
       padding-top: 9px;
       margin-left: 0;
       /* background-color: yellow; */
       display: inline-block;
-      z-index: 3;
+      /* z-index: 3; */
     }
 
     .loadHome {
@@ -172,11 +215,11 @@ body p {
       display: inline-block;
       vertical-align: middle;
       }
+=======
+>>>>>>> parent of f74f8e3... Styled header and article-footer
 
-      .visitPages li:nth-child(1) {
-        padding-right: 12px;
-      }
 
+<<<<<<< HEAD
       .visitPages li:nth-child(2) {
         padding-right: 1px;
       }
@@ -185,6 +228,8 @@ body p {
         color: #99AAB7;
       }
 
+
+    /*SITE TITLE, HEADINGS*/
 
       hgroup {
         width: 900px;
@@ -196,40 +241,172 @@ body p {
 
       hgroup h1 {
         font-family: 'Oswald', sans-serif;
-        font-size: 81px;
+        font-size: 90px;
         color: #fff;
-        letter-spacing: 10px;
-        padding-left: 54px;
+        /* letter-spacing: 9px; */
+        /* padding-left: 54px; */
+        text-align: center;
       }
 
       hgroup h2 {
         font-family: 'Open Sans', sans-serif;
         font-size: 11px;
-        color: #fff;
+        font-weight: 400;
+        color: #092E47;
         margin-top: 16px;
         text-align: center;
       }
 
 
 
+  /*MAIN-ARTICLE*/
+
+      /*article content*/
+
+      .holdsArticleTitle h1 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 56px;
+        padding-top: 70px;
+      }
+
+      .articleContent {
+        margin-top: 77px;
+      }
+
+      .firstGraph, .secondGraph, .thirdGraph, .fourthGraph p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        line-height: 20px;
+        /* margin-bottom: 38px; */
+      }
+
+      .firstGraph {
+        margin-bottom: 38px;
+      }
+
+      .fourthGraph {
+        margin-top: 40px;
+      }
+
+      blockquote {
+        font-family: 'Oswald', sans-serif;
+        font-size: 22px;
+        font-weight: 300;
+        color: #004DAE;
+        margin-top: 45px;
+        margin-bottom: 51px;
+      }
+
+      /*article actions*/
+
+      .articleActions {
+        width: 462px;
+        height: 32px;
+        margin-top: 20px;
+      }
+
+      /*articleActions when NOT in use*/
+
+        .articleActions li {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 12px;
+          font-weight: 300;
+          display: inline-block;
+        /*   background-color: blue; */
+        }
+
+        .articleActions li span {
+          color: #fff;
+          padding: 10px 12px 9px 13px;
+          /* background-color: #A0B3C0; */
+        }
+
+        .readComments {
+          width: 157px;
+          height: 30px;
+          background-color: #A0B3C0;
+        }
+
+        .readLater {
+          width: 127px;
+          height: 30px;
+          background-color: #A0B3C0;
+          margin-left: 10px;
+        }
+
+        .sharePost {
+          width: 155px;
+          height: 30px;
+          background-color: #A0B3C0;
+          margin-left: 10px;
+        }
+
+        .articleActions .fa {
+          font-size: 20px;
+          color: #fff;
+          width: 33px;
+          height: 30px;
+          background-color: #5C6870;
+          padding-top: 4px;
+          vertical-align: middle;
+          text-align: center;
+          /* padding-left: 8px;
+          padding-top: 9px; */
+        }
+
+        .articleActions li:hover{
+          background-color: #0069B6;
+        }
+
+        .articleActions .fa:hover{
+          background-color: #0069B6;
+        }
 
 
-  /*ARTICLE STUFF*/
-
-  .holdsPopPosts h1 {
-    width: 565px;
-    height: 58px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 58px;
-    color: #092E47;
-    margin: 0 auto;
-    padding-top: 38px;
-  }
 
 
 
 
-  /*ARTICLE FOOTER*/
+
+
+
+  /*ARTICLE-FOOTER*/
+
+    .holdsPopPosts h1 {
+      width: 565px;
+      height: 58px;
+      font-family: 'Oswald', sans-serif;
+      font-size: 58px;
+      color: #092E47;
+      margin: 0 auto;
+      padding-top: 38px;
+    }
+
+    .viewPopPosts li /* img */ {
+      display: inline-block;
+    }
+
+      /* .viewPopPosts li img:nth-child(1) {
+        width: 323px;
+        height: 330px;
+      }
+
+      .viewPopPosts li:nth-child(2) {
+        width: 325px;
+        height: 330px;
+      }
+
+      .viewPopPosts li:nth-child(3) {
+        width: 326px;
+        height: 330px;
+      }
+
+      .viewPopPosts li:nth-child(4) {
+        width: 326px;
+        height: 330px;
+      }
+       */
+
 
 
 
@@ -275,7 +452,48 @@ body p {
       padding-left: 16px;
       display: inline-block;
     }
+=======
+  .holdsFooter {
+    width: 363px;
+    height: 68px;
+    margin-left: 165px;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: middle;
+  }
 
-    .navFooter li:hover {
-      color: #99AAB7;
-    }
+  .holdsFooter img {
+    vertical-align: middle;
+  }
+
+  .holdsFooter span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    color: #fff;
+    padding-left: 10px;
+    vertical-align: middle;
+  }
+
+  .navFooter {
+    width: 317px;
+    height: 14px;
+    margin-right: 163px;
+    margin-top: 43px;
+    display: inline-block;
+    float: right;
+  }
+
+  .navFooter li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    color: #fff;
+    padding-left: 16px;
+    display: inline-block;
+  }
+>>>>>>> parent of f74f8e3... Styled header and article-footer
+
+  .navFooter li:hover {
+    color: #99AAB7;
+  }

@@ -10,8 +10,13 @@ body p {
 }
 
 
+
+/***************************************/
 /*GENERAL PAGE LAYOUT*/
-/*includes main structural sections on page*/
+/*includes main structural elements on page*/
+/***************************************/
+
+
 
 .holdsHeaderImage {
   max-width: 1300px;
@@ -23,14 +28,17 @@ body p {
 }
 
 .holdsHeaderContent {
-  max-width: 996px;
-  width: 338px;
+  width: 996px;
+  height: 338px;
+  margin-left: 141px;
 }
 
 .viewPages {
   max-width: 990px;
   height: 45px;
 }
+
+
 
 /*ARTICLE and ASIDE*/
 
@@ -72,21 +80,28 @@ body p {
     vertical-align: top;
   }
 
-  /*"MOST POPULAR POSTS" headline*/
 
-  .holdsPopPosts {
-    max-width: 1300px;
-    height: 147px;
-    margin: 0 auto;
-    background-color: blue;
-  }
 
-  /*POPULAR POSTS*/
+  /*ARTICLE FOOTER*/
 
-  .viewPopPosts {
-    max-width: 1300px;
-    height: 300px;
-  }
+    /*MOST POPULAR POSTS*/
+
+    .holdsPopPosts {
+      max-width: 1300px;
+      height: 147px;
+      margin: 0 auto;
+      /* background-color: blue; */
+    }
+
+    /*POPULAR POSTS*/
+
+    .viewPopPosts {
+      max-width: 1300px;
+      height: 300px;
+    }
+
+
+
 
     /*PAGE FOOTER*/
 
@@ -98,49 +113,169 @@ body p {
 
 
 
+  /***************************************/
   /*STYLINGS for main structural elements*/
+  /***************************************/
 
 
-  .holdsFooter {
-    width: 363px;
-    height: 68px;
-    margin-left: 165px;
-    margin-top: 20px;
-    display: inline-block;
-    vertical-align: middle;
+
+  /*PAGE HEADER*/
+
+    /*nav container*/
+
+    .viewPages {
+      max-width: 1020px;
+      height: 50px;
+      padding-top: 9px;
+      margin-left: 0;
+      /* background-color: yellow; */
+      display: inline-block;
+      z-index: 3;
+    }
+
+    .loadHome {
+      width: 250px;
+      height:46px;
+      display: inline-block;
+    }
+
+    .loadHome img {
+      vertical-align: middle;
+      padding-right: 14px;
+    }
+
+    .loadHome span {
+      font-family: 'Oswald', sans-serif;
+      color: #092E47;
+    }
+
+    /*ABOUT and SEARCH*/
+
+    .visitPages {
+      width: 150px;
+      height: 16px;
+      margin-top: 9px;
+      /* float: right; */
+      position: absolute;
+      top: 9px;
+      right: 170px;
+    }
+
+    .visitPages li {
+      display: inline-block;
+      font-family: 'Oswald', sans-serif;
+      font-size: 16px;
+      color: #092E47;
+    }
+
+    .visitPages li img {
+      display: inline-block;
+      vertical-align: middle;
+      }
+
+      .visitPages li:nth-child(1) {
+        padding-right: 12px;
+      }
+
+      .visitPages li:nth-child(2) {
+        padding-right: 1px;
+      }
+
+      .visitPages li:hover {
+        color: #99AAB7;
+      }
+
+
+      hgroup {
+        width: 900px;
+        height: 107px;
+        padding-left: 0;
+        padding-top: 201px;
+        padding-bottom: 224px;
+      }
+
+      hgroup h1 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 81px;
+        color: #fff;
+        letter-spacing: 10px;
+        padding-left: 54px;
+      }
+
+      hgroup h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 11px;
+        color: #fff;
+        margin-top: 16px;
+        text-align: center;
+      }
+
+
+
+
+
+  /*ARTICLE STUFF*/
+
+  .holdsPopPosts h1 {
+    width: 565px;
+    height: 58px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 58px;
+    color: #092E47;
+    margin: 0 auto;
+    padding-top: 38px;
   }
 
-  .holdsFooter img {
-    vertical-align: middle;
-  }
 
-  .holdsFooter span {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 11px;
-    font-weight: 300;
-    color: #fff;
-    padding-left: 10px;
-    vertical-align: middle;
-  }
 
-  .navFooter {
-    width: 317px;
-    height: 14px;
-    margin-right: 163px;
-    margin-top: 43px;
-    display: inline-block;
-    float: right;
-  }
 
-  .navFooter li {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 10px;
-    font-weight: 300;
-    color: #fff;
-    padding-left: 16px;
-    display: inline-block;
-  }
+  /*ARTICLE FOOTER*/
 
-  .navFooter li:hover {
-    color: #99AAB7;
-  }
+
+
+  /*PAGE FOOTER*/
+
+
+    .holdsFooter {
+      width: 363px;
+      height: 68px;
+      margin-left: 165px;
+      margin-top: 20px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .holdsFooter img {
+      vertical-align: middle;
+    }
+
+    .holdsFooter span {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 11px;
+      font-weight: 300;
+      color: #fff;
+      padding-left: 10px;
+      vertical-align: middle;
+    }
+
+    .navFooter {
+      width: 317px;
+      height: 14px;
+      margin-right: 163px;
+      margin-top: 43px;
+      display: inline-block;
+      float: right;
+    }
+
+    .navFooter li {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 10px;
+      font-weight: 300;
+      color: #fff;
+      padding-left: 16px;
+      display: inline-block;
+    }
+
+    .navFooter li:hover {
+      color: #99AAB7;
+    }

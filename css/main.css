@@ -250,6 +250,23 @@ body p {
         margin-top: 40px;
       }
 
+        .secondGraph a {
+          color: #B1BEC9;
+        }
+
+        .secondGraph a:hover {
+          color: #004DAE
+        }
+
+        .thirdGraph a {
+          color: #B1BEC9;
+        }
+
+        .thirdGraph a:hover {
+          color: #004DAE;
+        }
+
+
       blockquote {
         font-family: 'Oswald', sans-serif;
         font-size: 22px;
@@ -323,6 +340,83 @@ body p {
         .articleActions li:hover{
           background-color: #0069B6;
         }
+
+
+
+  /*SIDEBAR*/
+
+    .socialAuthor img {
+      border-radius: 50%;
+      opacity: 0.6;
+      margin: 0 90px 10px 90px; /* 0 55px;
+      margin-bottom: 10px; */
+    }
+
+    .socialAuthor h2 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      color: #004DAE;
+      margin-left: 90px;
+    }
+
+    .connectAuthor {
+      width: 192px;
+      height: 10px;
+      margin-top: 5px;
+      margin-left: 60px;
+    }
+
+    .connectAuthor li {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 10px;
+      color: #99AAB7;
+      display: inline-block;
+    }
+
+      .connectAuthor li:nth-child(1) {
+        padding-right: 11px;
+      }
+
+      .connectAuthor li:nth-child(2) {
+        padding-right: 11px;
+      }
+
+    .readAuthor h2 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      color: #004DAE;
+      margin-top: 74px;
+      margin-bottom: 10px;
+    }
+
+    .readAuthor p {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      line-height: 20px;
+    }
+
+    .readAuthor img {
+      margin-top: 55px;
+      opacity: 0.6;
+    }
+
+    .readAuthor span {
+      font-family: 'Oswald', sans-serif;
+      font-size: 10px;
+      padding-left: 225px;
+       }
+
+       .readAuthor a {
+         color: #B1BEC9;
+       }
+
+       .readAuthor a:hover {
+         color: #004DAE;
+       }
+
+
 
 
   /*ARTICLE-FOOTER*/

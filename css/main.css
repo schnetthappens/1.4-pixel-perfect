@@ -65,16 +65,17 @@ body p {
   margin-left: 164px;
 }
 
-.holdsArticleTitle {
-  max-width: 565px;
+/* .holdsArticleTitle {
+  width: 565px;
   height: 165px;
-  /* margin-top: 70px; */
-  /* margin-left: 164px; */
-  /* background-color: blue; */
-}
+  margin-top: 70px;
+  margin-left: 164px;
+  background-color: blue;
+  margin-right: 0;
+} */
 
 .articleContent {
-  max-width: 575px;
+  max-width: 550px;
   height: 613px;
   /* margin-left: 164px; */
   display: inline-block;
@@ -82,12 +83,15 @@ body p {
 }
 
 .aboutAuthor {
-  max-width: 281px;
+  width: 281px;
   height: 613px;
   background-color: #fff;
   display:inline-block;
-  background-color: yellow;
+  /* background-color: yellow; */
   vertical-align: top;
+  margin-top: 75px;
+  margin-right: 0;
+  margin-left: 82px;
 }
 
 
@@ -220,14 +224,14 @@ body p {
 
       /*article content*/
 
-      .holdsArticleTitle h1 {
+      .articleContent h1 {
         font-family: 'Oswald', sans-serif;
         font-size: 56px;
-        padding-top: 70px;
+        padding-top: 20px;
       }
 
       .articleContent {
-        margin-top: 77px;
+        margin-top: 60px;
       }
 
       .firstGraph, .secondGraph, .thirdGraph, .fourthGraph p {
@@ -239,6 +243,7 @@ body p {
 
       .firstGraph {
         margin-bottom: 38px;
+        margin-top: 38px;
       }
 
       .fourthGraph {
@@ -261,7 +266,7 @@ body p {
       .articleActions {
         width: 462px;
         height: 32px;
-        margin-top: 20px;
+        margin-top: 30px;
       }
 
       /*articleActions when NOT in use*/
@@ -316,10 +321,6 @@ body p {
         /*articleActions IN use*/
 
         .articleActions li:hover{
-          background-color: #0069B6;
-        }
-
-        .articleActions .fa:hover{
           background-color: #0069B6;
         }
 

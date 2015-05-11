@@ -41,15 +41,9 @@ body p {
 }
 
 .holdsHeaderContent {
-<<<<<<< HEAD
   width: 996px;
   height: 338px;
   margin-left: 141px;
-  z-index: 1;
-=======
-  max-width: 996px;
-  width: 338px;
->>>>>>> parent of f74f8e3... Styled header and article-footer
 }
 
 .viewPages {
@@ -57,56 +51,47 @@ body p {
   height: 45px;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> parent of f74f8e3... Styled header and article-footer
 /*ARTICLE and ASIDE*/
 
 .holdsContent {
   max-width: 1300px;
   height: 1005px;
-  /* background-color: green; */
 }
 
-  .holdsArticle {
-    max-width: 978px;
-    height: 874px;
-    /* background-color: red; */
-    margin-left: 164px;
-  }
+.holdsArticle {
+  max-width: 978px;
+  height: 874px;
+  margin-left: 164px;
+}
 
-  .holdsArticleTitle {
-    max-width: 565px;
-    height: 165px;
-    /* margin-top: 70px; */
-    /* margin-left: 164px; */
-    /* background-color: blue; */
-  }
+.holdsArticleTitle {
+  max-width: 565px;
+  height: 165px;
+  /* margin-top: 70px; */
+  /* margin-left: 164px; */
+  /* background-color: blue; */
+}
 
-  .articleContent {
-    max-width: 575px;
-    height: 613px;
-    /* margin-left: 164px; */
-    display: inline-block;
-    margin-right: 20px;
-    /* background-color: orange; */
-  }
+.articleContent {
+  max-width: 575px;
+  height: 613px;
+  /* margin-left: 164px; */
+  display: inline-block;
+  margin-right: 20px;
+}
 
-  .aboutAuthor {
-    max-width: 281px;
-    height: 613px;
-    background-color: #fff;
-    display:inline-block;
-    background-color: yellow;
-    vertical-align: top;
-  }
+.aboutAuthor {
+  max-width: 281px;
+  height: 613px;
+  background-color: #fff;
+  display:inline-block;
+  background-color: yellow;
+  vertical-align: top;
+}
 
-  /*"MOST POPULAR POSTS" headline*/
 
-<<<<<<< HEAD
   /*ARTICLE FOOTER*/
-
 
     /*MOST POPULAR POSTS*/
 
@@ -117,7 +102,6 @@ body p {
       /* background-color: blue; */
     }
 
-
     /*POPULAR POSTS*/
 
     .viewPopPosts {
@@ -126,23 +110,6 @@ body p {
     }
 
 
-
-=======
-  .holdsPopPosts {
-    max-width: 1300px;
-    height: 147px;
-    margin: 0 auto;
-    background-color: blue;
-  }
-
-  /*POPULAR POSTS*/
-
-  .viewPopPosts {
-    max-width: 1300px;
-    height: 300px;
-  }
-
->>>>>>> parent of f74f8e3... Styled header and article-footer
     /*PAGE FOOTER*/
 
   .endsPage {
@@ -154,15 +121,9 @@ body p {
 
 
   /*STYLINGS for main structural elements*/
-<<<<<<< HEAD
   /***************************************/
 
-
-
   /*PAGE HEADER*/
-
-
-
 
     /*nav container*/
 
@@ -215,11 +176,7 @@ body p {
       display: inline-block;
       vertical-align: middle;
       }
-=======
->>>>>>> parent of f74f8e3... Styled header and article-footer
 
-
-<<<<<<< HEAD
       .visitPages li:nth-child(2) {
         padding-right: 1px;
       }
@@ -297,6 +254,8 @@ body p {
         margin-bottom: 51px;
       }
 
+
+
       /*article actions*/
 
       .articleActions {
@@ -354,6 +313,8 @@ body p {
           padding-top: 9px; */
         }
 
+        /*articleActions IN use*/
+
         .articleActions li:hover{
           background-color: #0069B6;
         }
@@ -361,13 +322,6 @@ body p {
         .articleActions .fa:hover{
           background-color: #0069B6;
         }
-
-
-
-
-
-
-
 
 
   /*ARTICLE-FOOTER*/
@@ -452,48 +406,7 @@ body p {
       padding-left: 16px;
       display: inline-block;
     }
-=======
-  .holdsFooter {
-    width: 363px;
-    height: 68px;
-    margin-left: 165px;
-    margin-top: 20px;
-    display: inline-block;
-    vertical-align: middle;
-  }
 
-  .holdsFooter img {
-    vertical-align: middle;
-  }
-
-  .holdsFooter span {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 11px;
-    font-weight: 300;
-    color: #fff;
-    padding-left: 10px;
-    vertical-align: middle;
-  }
-
-  .navFooter {
-    width: 317px;
-    height: 14px;
-    margin-right: 163px;
-    margin-top: 43px;
-    display: inline-block;
-    float: right;
-  }
-
-  .navFooter li {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 10px;
-    font-weight: 300;
-    color: #fff;
-    padding-left: 16px;
-    display: inline-block;
-  }
->>>>>>> parent of f74f8e3... Styled header and article-footer
-
-  .navFooter li:hover {
-    color: #99AAB7;
-  }
+      .navFooter li:hover {
+      color: #99AAB7;
+    }
